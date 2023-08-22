@@ -34,6 +34,13 @@
         </license>
     </licenses>
 
+    <distributionManagement>
+        <repository>
+            <id>voldex-repo</id>
+            <url>https://m2.voldex.net/repository/voldex-deploy</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <defaultGoal>clean package install</defaultGoal>
 
